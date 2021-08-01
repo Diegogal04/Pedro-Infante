@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/backplane.png);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* #### NAV #### */
+header {
+    display: block;
+}
+
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 18px;
+    font-size: 21px;
+    color: white;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+.nav-logo-div {
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.nav-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.s-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.s-cont {
+    width: 900px;
+}
+
+.s-title {
+    font-size: 70px;
+}
+
+p {
+    font-size: 21px;
+}
