@@ -213,3 +213,7 @@ nav {
       transform: translate(0);
     }
   }
+
+  .offcanvas-title {
+    font-family: sans-serif;
+  }

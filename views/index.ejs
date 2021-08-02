@@ -34,15 +34,16 @@
     
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Hola <%= name %></h5>
+        <h4 class="offcanvas-title" id="offcanvasExampleLabel">Panel de Control</h4>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
+        <h4>¡Buenas Tardes <%= name %>!</h4>
         <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          Esta es la pagina oficial de la Bioserie de Pedro Infante. Esta pagina es solo para uso exclusivo y muy confidencial. Aqui podra ver las actualizaciones de la informacion y los avances de la serie.
         </div>
         <div class="dropdown mt-3">
-            <a href="/users/logout" class="btn btn-secondary">Logout</a>
+            <a href="/users/logout" class="btn btn-secondary">Cerrar Sesión</a>
         </div>
       </div>
     </div>
@@ -50,8 +51,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-<form action="/logout?_method=DELETE" method="POST">
-<button type="submit">Logout</button>
 </form>
