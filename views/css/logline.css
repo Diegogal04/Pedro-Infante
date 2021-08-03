@@ -49,7 +49,7 @@ nav {
 
 .logline-sect {
     width: 100%;
-    height: 800px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
@@ -57,6 +57,7 @@ nav {
 .logline-div {
     width: 700px;
     margin-left: 200px;
+    margin-top: 200px;
 }
 
 .logline-title {
@@ -69,3 +70,18 @@ nav {
     font-size: 21px;
 }
 
+@media screen and (max-width: 1500px) {
+    .logline-div {
+        height: 600px;
+        margin-top: 170px;
+        margin-left: 80px;
+    }
+
+    .logline-title {
+        font-size: 50px;
+    }
+
+    .logline-p {
+        font-size: 20px;
+    }
+}
