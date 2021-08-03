@@ -219,11 +219,13 @@ nav {
   }
 
   /* ####RESPONSIVE 13IN #### */
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1500px) {
     .myVideo {
-      width: 1400px;
-      height: 700px;
+      width: 1450px;
+      height: 830px;
       display: flex;
       justify-content: center;
     }
+
+   
   }
