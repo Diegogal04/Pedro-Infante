@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+html,body, .back-img { height: 100%;}
+
 body {
     background-image: url(../img/14.png);
+    background-size: cover;
+    background-position: center;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -65,4 +68,18 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .cont-teaser {
+        height: 600px;
+    }
+
+    .t-title {
+        font-size: 50px;
+    }
+
+    .p-teaser {
+        font-size: 20px;
+    }
 }
