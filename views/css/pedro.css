@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
+html,body, .back-img { height: 100%;}
+
 body {
     background-image: url(../img/11.png);
-    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: center;
 }
 
 /* #### NAV #### */
