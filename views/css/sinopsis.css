@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../img/SLIDE_5.jpg);
+    background-image: url(../img/backplane.png);
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -40,9 +40,10 @@ nav {
 }
 
 .nav-logo-div {
-    width: 200px;
-    height: 100px;
+    width: 220px;
+    height: 70px;
     margin-left: 50px;
+    margin-top: 15px;
 }
 
 .nav-logo {
@@ -70,10 +71,10 @@ p {
 
 .scrl {
     margin:4px, 4px;
-    padding:50px;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 1200px;
-    height: 700px;
+    padding:80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 1300px;
+    height: 720px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align:justify;
@@ -82,11 +83,23 @@ p {
 }
 
 .navbar {
-    width: 1200px;
+    width: 1300px;
     border-radius: 10px 10px 0px 0px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    margin-top: 30px;
 }
 
 .sin-cont {
     display: flex;
     justify-content: center;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 35px;
+}
+
+.nav-link {
+    color: white;
 }

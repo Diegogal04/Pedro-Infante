@@ -35,9 +35,10 @@ nav {
 }
 
 .nav-logo-div {
-    width: 200px;
-    height: 100px;
+    width: 220px;
+    height: 70px;
     margin-left: 50px;
+    margin-top: 15px;
 }
 
 .nav-logo {
