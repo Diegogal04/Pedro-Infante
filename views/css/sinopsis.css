@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../img/backplane.png);
+    background-image: url(../img/SLIDE_5.jpg);
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -65,4 +65,28 @@ nav {
 
 p {
     font-size: 21px;
+}
+
+
+.scrl {
+    margin:4px, 4px;
+    padding:50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1200px;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 8);
+}
+
+.navbar {
+    width: 1200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sin-cont {
+    display: flex;
+    justify-content: center;
 }
