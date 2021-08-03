@@ -87,10 +87,10 @@ nav {
     font-size: 20px;
 }
 
-#myVideo {
+.myVideo {
     position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: 1;
     min-width: 100%;
     min-height: 100%;
   }
@@ -216,4 +216,14 @@ nav {
 
   .offcanvas-title {
     font-family: sans-serif;
+  }
+
+  /* ####RESPONSIVE 13IN #### */
+  @media screen and (max-width: 1400px) {
+    .myVideo {
+      width: 1400px;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+    }
   }
