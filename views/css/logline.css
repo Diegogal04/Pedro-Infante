@@ -49,7 +49,6 @@ nav {
 
 .logline-sect {
     width: 100%;
-    height: 600px;
     display: flex;
     align-items: center;
 }
@@ -72,7 +71,7 @@ nav {
 
 @media screen and (max-width: 1500px) {
     .logline-div {
-        height: 600px;
+        height: 400px;
         margin-top: 170px;
         margin-left: 80px;
     }
