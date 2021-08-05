@@ -47,21 +47,31 @@ nav {
     height: 100%;
 }
 
+.line-br {
+    width: 800px;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .t-title {
     color: white;
-    font-size: 65px;
+    font-size: 100px;
+    letter-spacing: 10px;
 
 }
 
 .p-teaser {
     color: white;
-    font-size: 24px;
+    font-size: 21px;
+    letter-spacing: 0.7px;
 }
 
 .teaser-cont {
     width: 650px;
-    margin-top: 100px;
-    margin-right: 100px;
+    margin-top: 80px;
+    margin-right: 250px;
 }
 
 .cont-teaser {
@@ -69,6 +79,26 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+
+.teaser-over { 
+    width: 800px;
+    height: 550px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fa-chevron-down {
+    color: white;
+    font-size: 50px;
+}
+
+.arrow {
+    width: 800px;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1500px) {
