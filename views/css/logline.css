@@ -55,19 +55,29 @@ nav {
 }
 
 .logline-div {
-    width: 700px;
-    margin-left: 200px;
-    margin-top: 200px;
+    width: 750px;
+    margin-left: 300px;
+    margin-top: 55px;
 }
 
 .logline-title {
     color: white;
-    font-size: 60px;
+    font-size: 120px;
+    letter-spacing: 10px;
 }
 
 .logline-p {
     color: white;
-    font-size: 21px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.line-br {
+    width: 500px;
+    height: 3px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1500px) {
