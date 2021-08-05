@@ -22,15 +22,15 @@ router.post('/register', (req, res) => {
     let errors = [];
 
     if(!name || !email || !password || !password2) {
-        errors.push({ msg: "pleas fill in the blanks" })
+        errors.push({ msg: "Por favor llena todos los campos" })
     };
 
     if(password !== password2) {
-        errors.push({ msg: "Passwords do not match" })
+        errors.push({ msg: "Las contraseñas no coinciden" })
     }
 
     if(password.length < 6) {
-        errors.push({ msg: "Password shuld be at least 6 Charracters" })
+        errors.push({ msg: "La contraseña debe de tener 6 caracteres" })
     }
 
     if(errors.length > 0) {
@@ -46,7 +46,7 @@ router.post('/register', (req, res) => {
         User.findOne({ email: email })
         .then(user => {
             if(user) {
-                errors.push({ msg: "email is allready register" })
+                errors.push({ msg: "¡Este mail ya esta registrado!" })
                 res.render('register', {
                     errors,
                     name,
@@ -65,7 +65,7 @@ router.post('/register', (req, res) => {
                     newUser.password = hash;
                     newUser.save()
                     .then(user => {
-                        req.flash('success_msg', 'You are now register and can log in');
+                        req.flash('success_msg', '¡Ya tienes acceso!');
                         res.redirect('/users/login');
                     })
                     .catch(err => console.log(err))
