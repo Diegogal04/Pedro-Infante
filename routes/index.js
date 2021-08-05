@@ -37,4 +37,5 @@ router.get('/contenido', ensureAuthenticated, (req, res) => {
     res.render('contenido.ejs')
 })
 
+
 module.exports = router;
