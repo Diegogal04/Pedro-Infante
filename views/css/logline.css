@@ -83,12 +83,12 @@ nav {
 @media screen and (max-width: 1500px) {
     .logline-div {
         height: 400px;
-        margin-top: 150px;
-        margin-left: 80px;
+        margin-top: 50px;
+        margin-left: 100px;
     }
 
     .logline-title {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .logline-p {
