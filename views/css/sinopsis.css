@@ -91,6 +91,7 @@ p {
 }
 
 .sin-cont {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -102,4 +103,19 @@ p {
 
 .nav-link {
     color: white;
+}
+
+@media screen and (max-width: 1500px) {
+    .scrl {
+        width: 1100px;
+        height: 600px;
+    }
+
+    .navbar {
+        width: 1100px;
+    }
+
+    p {
+        font-size: 19px;
+    }
 }
