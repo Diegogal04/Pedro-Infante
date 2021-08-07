@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body, .back-img { height: 100%;}
+
+body {
+    background-image: url(../img/EP_5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 18px;
+    font-size: 21px;
+    color: Black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+.nav-logo-div {
+    width: 220px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.nav-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-container {
+    width: 1050px;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btn-primary {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    transform: rotate(-16deg);
+    position: relative;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    box-shadow: 0 0 55px 15px rgba(0, 0, 0, 8);
+}
+
+.modal-body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+}
+
+.cap-descrpcion {
+    width: 700px;
+    margin-left: 80px;
+}
+
+.description-title {
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+
+.line-br {
+    width: 400px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.modal-cap-p {
+    font-size: 22px;
+}
+
+.modal-cap-img {
+    height: 100%;
+}
+
+.img-cap {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.modal-header {
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-footer {
+    background-color: black;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.scroll {
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fa-chevron-down {
+    color: white;
+    font-size: 50px;
+}
+
+.arrow {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .btn-container {
+        width: 880px;
+        height: 590px;
+    }
+
+    .cap-descrpcion {
+        width: 650px;
+        height: 600px;
+        margin-left: 80px;
+    }
+
+    .modal-cap-p {
+        font-size: 20px;
+    }
+
+    .scroll {
+        height: 400px;
+    }
+}
