@@ -37,6 +37,13 @@ router.get('/contenido', ensureAuthenticated, (req, res) => {
     res.render('contenido.ejs')
 })
 
+router.get('/capitulos', ensureAuthenticated, (req, res) => {
+    res.render('capitulos.ejs')
+})
+
+router.get('/capitulos/episodio-1', ensureAuthenticated, (req, res) => {
+    res.render('ep1.ejs')
+})
 
 
 module.exports = router;
