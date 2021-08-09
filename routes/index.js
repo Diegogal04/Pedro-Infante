@@ -81,6 +81,10 @@ router.get('/capitulos/episodio-10', ensureAuthenticated, (req, res) => {
     res.render('ep10.ejs')
 })
 
+router.get('/capitulos/episodio-11', ensureAuthenticated, (req, res) => {
+    res.render('ep11.ejs')
+})
+
 
 
 
