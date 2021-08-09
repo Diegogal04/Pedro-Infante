@@ -10,6 +10,7 @@ body {
     background-image: url(../img/EP_2.jpg);
     background-size: cover;
     background-position: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -29,8 +30,16 @@ li {
     list-style: none;
     margin: 18px;
     font-size: 21px;
-    color: Black;
-    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li:hover {
+    text-decoration-line: line-through;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
 }
 
 nav {

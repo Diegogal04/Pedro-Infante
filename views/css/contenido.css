@@ -28,6 +28,15 @@ li {
     margin: 18px;
     font-size: 21px;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li:hover {
+    text-decoration-line: line-through;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 nav {
