@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 
-html,body, .back-img { height: 100%;}
 
 body {
-    background-color: black;
+    color: white;
 }
 
 /* #### NAV #### */
 header {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    background-color: black;
 }
 
 ul {
@@ -29,6 +30,15 @@ li {
     margin: 18px;
     font-size: 21px;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li:hover {
+    text-decoration-line: line-through;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 nav {
@@ -50,12 +60,20 @@ nav {
 .pedro-info {
     width: 600px;
     color: white;
-    margin-right: 100px;
-    margin-top: 150px;
+    margin-left: 150px;
 }
 
 .pedro-name {
-    font-size: 60px;
+    font-size: 70px;
+    letter-spacing: 6px;
+}
+
+.line-br {
+    width: 400px;
+    height: 3px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .pedro-cat {
@@ -67,22 +85,98 @@ p {
 }
 
 .pedro-sect {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.about-pedro {
     height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
 
-.pedro-hero {
+.img-cont-pedro-hero {
+    height: 100%;
+}
+
+.img-pedro-hero {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 2px -2px white;
+}
+
+/* #### ABOUT PEDRO #### */
+.about-pedro-sect {
+    height: 800px;
+    background-color: black;
+}
+
+.about-title {
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 30px;
+}
+
+.about-pedro-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-pedro-content {
+    width: 650px;
+    margin-right: 100px;
+}
+
+.quien-pedro-title {
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+
+.img-cont-about-pedro {
+    width: 700px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.img-about-pedro {
     width: 100%;
     height: 100%;
     transform: scaleX(-1);
+    box-shadow: 0 4px 2px -2px white;
 }
 
-.pedro-hero-cont {
-   width: 300px;
-   height: 300px; 
+/* #### PSICOLOGIA #### */
+.pedro-psicologia-section {
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.psico-title {
+    font-size: 0px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.psico-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pscio-info {
+    width: 600px;
+    height: 600px;
+}
+
+.img-cont-psico {
+    width: 900px;
+    height: 100%;
+}
+
+.img-psico {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 2px -2px white;
 }
