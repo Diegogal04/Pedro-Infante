@@ -154,20 +154,16 @@ p {
     justify-content: flex-end;
 }
 
-.psico-title {
-    font-size: 0px;
-    text-align: center;
-    text-decoration-line: underline;
-}
-
 .psico-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .pscio-info {
     width: 600px;
     height: 600px;
+    margin-left: 100px;
 }
 
 .img-cont-psico {
@@ -179,4 +175,9 @@ p {
     width: 100%;
     height: 100%;
     box-shadow: 0 4px 2px -2px white;
+}
+
+.psico-title {
+    font-size: 55px;
+    letter-spacing: 5px;
 }
